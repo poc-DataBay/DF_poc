@@ -1,0 +1,13 @@
+{
+	"name": "LS_DataLake_pocDataBay",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://pocdatabay.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "95128928-d38b-40cd-a9f9-3d28564cd755",
+			"subscriptionId": "0e009c97-b66b-4a12-ba88-aee0f9f426d3",
+			"resourceGroupName": "DataFactoryRG"
+		}
+	}
+}
