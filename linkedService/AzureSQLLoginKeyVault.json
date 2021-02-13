@@ -1,0 +1,10 @@
+{
+	"name": "AzureSQLLoginKeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://AzureDatabayPOCKeyVault.vault.azure.net/"
+		}
+	}
+}
