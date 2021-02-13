@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "SQL-Copy-AzureBlob"
+		},
+		"AzSQLWorkshop_connectionString": {
+			"value": ""
+		},
+		"LS_DataLake_pocDataBay_properties_typeProperties_dataLakeStoreUri": {
+			"value": "https://pocdatabay.azuredatalakestore.net/webhdfs/v1"
+		},
+		"LS_DataLake_pocDataBay_properties_typeProperties_tenant": {
+			"value": "95128928-d38b-40cd-a9f9-3d28564cd755"
+		},
+		"LS_DataLake_pocDataBay_properties_typeProperties_subscriptionId": {
+			"value": "0e009c97-b66b-4a12-ba88-aee0f9f426d3"
+		},
+		"LS_DataLake_pocDataBay_properties_typeProperties_resourceGroupName": {
+			"value": "DataFactoryRG"
+		}
+	}
+}
