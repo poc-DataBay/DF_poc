@@ -16,8 +16,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureDataLakeStoreLocation",
+				"fileName": "@{item().Table_Name}",
 				"folderPath": {
-					"value": "@dataset().FolderPath",
+					"value": "pocdatabay/WorkshopDB-Dump",
 					"type": "Expression"
 				}
 			},
