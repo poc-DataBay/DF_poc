@@ -109,23 +109,6 @@
 				}
 			}
 		],
-		"parameters": {
-			"Control_Table_Name": {
-				"type": "String"
-			},
-			"Control_Table_Schema_PartitionID": {
-				"type": "String"
-			},
-			"Control_Table_Schema_SourceTableName": {
-				"type": "String"
-			},
-			"Control_Table_Schema_FilterQuery": {
-				"type": "String"
-			},
-			"Data_Destination_Folder_Path": {
-				"type": "String"
-			}
-		},
 		"annotations": []
 	}
 }
